@@ -6,10 +6,48 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		E2440FBE1A97F7AB005EE4CC /* Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E2440FBF1A97F7AB005EE4CC /* Build configuration list for PBXAggregateTarget "Universal" */;
+			buildPhases = (
+				E2440FC21A97F7CC005EE4CC /* lipo binaries */,
+			);
+			dependencies = (
+			);
+			name = Universal;
+			productName = Universal;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		E2440F7A1A97EEDF005EE4CC /* OAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440F791A97EEDF005EE4CC /* OAuth2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2440F801A97EEDF005EE4CC /* OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2440F741A97EEDF005EE4CC /* OAuth2.framework */; };
 		E2440F871A97EEDF005EE4CC /* OAuth2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F861A97EEDF005EE4CC /* OAuth2Tests.m */; };
+		E2440F991A97EF28005EE4CC /* SFTTokenRefreshOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440F911A97EF28005EE4CC /* SFTTokenRefreshOperation.h */; };
+		E2440F9A1A97EF28005EE4CC /* SFTTokenRefreshOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F921A97EF28005EE4CC /* SFTTokenRefreshOperation.m */; };
+		E2440F9B1A97EF28005EE4CC /* SFTTokenRefreshOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F921A97EF28005EE4CC /* SFTTokenRefreshOperation.m */; };
+		E2440F9C1A97EF28005EE4CC /* SFTRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440F931A97EF28005EE4CC /* SFTRequestOperation.h */; };
+		E2440F9D1A97EF28005EE4CC /* SFTRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F941A97EF28005EE4CC /* SFTRequestOperation.m */; };
+		E2440F9E1A97EF28005EE4CC /* SFTRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F941A97EF28005EE4CC /* SFTRequestOperation.m */; };
+		E2440F9F1A97EF28005EE4CC /* SFTTokenRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440F951A97EF28005EE4CC /* SFTTokenRequestOperation.h */; };
+		E2440FA01A97EF28005EE4CC /* SFTTokenRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F961A97EF28005EE4CC /* SFTTokenRequestOperation.m */; };
+		E2440FA11A97EF28005EE4CC /* SFTTokenRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F961A97EF28005EE4CC /* SFTTokenRequestOperation.m */; };
+		E2440FA21A97EF28005EE4CC /* SFTOperationQueueObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440F971A97EF28005EE4CC /* SFTOperationQueueObserver.h */; };
+		E2440FA31A97EF28005EE4CC /* SFTOperationQueueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F981A97EF28005EE4CC /* SFTOperationQueueObserver.m */; };
+		E2440FA41A97EF28005EE4CC /* SFTOperationQueueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F981A97EF28005EE4CC /* SFTOperationQueueObserver.m */; };
+		E2440FA71A97EFE3005EE4CC /* SFTOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FA51A97EFE3005EE4CC /* SFTOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2440FA81A97EFE3005EE4CC /* SFTOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */; };
+		E2440FA91A97EFE3005EE4CC /* SFTOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */; };
+		E2440FAD1A97F175005EE4CC /* SFTUser.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FAB1A97F175005EE4CC /* SFTUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2440FAE1A97F175005EE4CC /* SFTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FAC1A97F175005EE4CC /* SFTUser.m */; };
+		E2440FAF1A97F175005EE4CC /* SFTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FAC1A97F175005EE4CC /* SFTUser.m */; };
+		E2440FB21A97F1AF005EE4CC /* NSDate+Comparison.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FB01A97F1AF005EE4CC /* NSDate+Comparison.h */; };
+		E2440FB31A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FB11A97F1AF005EE4CC /* NSDate+Comparison.m */; };
+		E2440FB41A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FB11A97F1AF005EE4CC /* NSDate+Comparison.m */; };
+		E2440FB71A97F232005EE4CC /* Endpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FB61A97F232005EE4CC /* Endpoints.h */; };
+		E2440FBA1A97F25B005EE4CC /* SFTAuthErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FB81A97F25B005EE4CC /* SFTAuthErrors.h */; };
+		E2440FBB1A97F25B005EE4CC /* SFTAuthErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FB91A97F25B005EE4CC /* SFTAuthErrors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +67,23 @@
 		E2440F7F1A97EEDF005EE4CC /* OAuth2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuth2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2440F851A97EEDF005EE4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2440F861A97EEDF005EE4CC /* OAuth2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAuth2Tests.m; sourceTree = "<group>"; };
+		E2440F911A97EF28005EE4CC /* SFTTokenRefreshOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTTokenRefreshOperation.h; sourceTree = "<group>"; };
+		E2440F921A97EF28005EE4CC /* SFTTokenRefreshOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTTokenRefreshOperation.m; sourceTree = "<group>"; };
+		E2440F931A97EF28005EE4CC /* SFTRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTRequestOperation.h; sourceTree = "<group>"; };
+		E2440F941A97EF28005EE4CC /* SFTRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTRequestOperation.m; sourceTree = "<group>"; };
+		E2440F951A97EF28005EE4CC /* SFTTokenRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTTokenRequestOperation.h; sourceTree = "<group>"; };
+		E2440F961A97EF28005EE4CC /* SFTTokenRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTTokenRequestOperation.m; sourceTree = "<group>"; };
+		E2440F971A97EF28005EE4CC /* SFTOperationQueueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTOperationQueueObserver.h; sourceTree = "<group>"; };
+		E2440F981A97EF28005EE4CC /* SFTOperationQueueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTOperationQueueObserver.m; sourceTree = "<group>"; };
+		E2440FA51A97EFE3005EE4CC /* SFTOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTOAuth.h; sourceTree = "<group>"; };
+		E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTOAuth.m; sourceTree = "<group>"; };
+		E2440FAB1A97F175005EE4CC /* SFTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTUser.h; sourceTree = "<group>"; };
+		E2440FAC1A97F175005EE4CC /* SFTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTUser.m; sourceTree = "<group>"; };
+		E2440FB01A97F1AF005EE4CC /* NSDate+Comparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Comparison.h"; sourceTree = "<group>"; };
+		E2440FB11A97F1AF005EE4CC /* NSDate+Comparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Comparison.m"; sourceTree = "<group>"; };
+		E2440FB61A97F232005EE4CC /* Endpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Endpoints.h; sourceTree = "<group>"; };
+		E2440FB81A97F25B005EE4CC /* SFTAuthErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTAuthErrors.h; sourceTree = "<group>"; };
+		E2440FB91A97F25B005EE4CC /* SFTAuthErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTAuthErrors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +126,11 @@
 		E2440F761A97EEDF005EE4CC /* OAuth2 */ = {
 			isa = PBXGroup;
 			children = (
+				E2440FB51A97F1B3005EE4CC /* Categories */,
+				E2440F901A97EF19005EE4CC /* Operations */,
 				E2440F791A97EEDF005EE4CC /* OAuth2.h */,
 				E2440F771A97EEDF005EE4CC /* Supporting Files */,
+				E2440FAA1A97EFE8005EE4CC /* Auth */,
 			);
 			path = OAuth2;
 			sourceTree = "<group>";
@@ -102,6 +160,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E2440F901A97EF19005EE4CC /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				E2440FB61A97F232005EE4CC /* Endpoints.h */,
+				E2440F911A97EF28005EE4CC /* SFTTokenRefreshOperation.h */,
+				E2440F921A97EF28005EE4CC /* SFTTokenRefreshOperation.m */,
+				E2440F931A97EF28005EE4CC /* SFTRequestOperation.h */,
+				E2440F941A97EF28005EE4CC /* SFTRequestOperation.m */,
+				E2440F951A97EF28005EE4CC /* SFTTokenRequestOperation.h */,
+				E2440F961A97EF28005EE4CC /* SFTTokenRequestOperation.m */,
+				E2440F971A97EF28005EE4CC /* SFTOperationQueueObserver.h */,
+				E2440F981A97EF28005EE4CC /* SFTOperationQueueObserver.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		E2440FAA1A97EFE8005EE4CC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E2440FAB1A97F175005EE4CC /* SFTUser.h */,
+				E2440FAC1A97F175005EE4CC /* SFTUser.m */,
+				E2440FA51A97EFE3005EE4CC /* SFTOAuth.h */,
+				E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */,
+				E2440FB81A97F25B005EE4CC /* SFTAuthErrors.h */,
+				E2440FB91A97F25B005EE4CC /* SFTAuthErrors.m */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		E2440FB51A97F1B3005EE4CC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E2440FB01A97F1AF005EE4CC /* NSDate+Comparison.h */,
+				E2440FB11A97F1AF005EE4CC /* NSDate+Comparison.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,6 +205,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2440FA71A97EFE3005EE4CC /* SFTOAuth.h in Headers */,
+				E2440F9F1A97EF28005EE4CC /* SFTTokenRequestOperation.h in Headers */,
+				E2440FAD1A97F175005EE4CC /* SFTUser.h in Headers */,
+				E2440FB71A97F232005EE4CC /* Endpoints.h in Headers */,
+				E2440FA21A97EF28005EE4CC /* SFTOperationQueueObserver.h in Headers */,
+				E2440F9C1A97EF28005EE4CC /* SFTRequestOperation.h in Headers */,
+				E2440F991A97EF28005EE4CC /* SFTTokenRefreshOperation.h in Headers */,
+				E2440FBA1A97F25B005EE4CC /* SFTAuthErrors.h in Headers */,
+				E2440FB21A97F1AF005EE4CC /* NSDate+Comparison.h in Headers */,
 				E2440F7A1A97EEDF005EE4CC /* OAuth2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +272,9 @@
 					E2440F7E1A97EEDF005EE4CC = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
+					E2440FBE1A97F7AB005EE4CC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 				};
 			};
 			buildConfigurationList = E2440F6E1A97EEDF005EE4CC /* Build configuration list for PBXProject "OAuth2" */;
@@ -183,6 +291,7 @@
 			targets = (
 				E2440F731A97EEDF005EE4CC /* OAuth2 */,
 				E2440F7E1A97EEDF005EE4CC /* OAuth2Tests */,
+				E2440FBE1A97F7AB005EE4CC /* Universal */,
 			);
 		};
 /* End PBXProject section */
@@ -204,11 +313,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E2440FC21A97F7CC005EE4CC /* lipo binaries */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "lipo binaries";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION}\n-sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build xcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules (from iphonesimulator build) to the copied framework directory\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2440F6F1A97EEDF005EE4CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2440FAE1A97F175005EE4CC /* SFTUser.m in Sources */,
+				E2440F9A1A97EF28005EE4CC /* SFTTokenRefreshOperation.m in Sources */,
+				E2440FA81A97EFE3005EE4CC /* SFTOAuth.m in Sources */,
+				E2440FB31A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */,
+				E2440FA31A97EF28005EE4CC /* SFTOperationQueueObserver.m in Sources */,
+				E2440FA01A97EF28005EE4CC /* SFTTokenRequestOperation.m in Sources */,
+				E2440FBB1A97F25B005EE4CC /* SFTAuthErrors.m in Sources */,
+				E2440F9D1A97EF28005EE4CC /* SFTRequestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +350,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2440F9E1A97EF28005EE4CC /* SFTRequestOperation.m in Sources */,
+				E2440FAF1A97F175005EE4CC /* SFTUser.m in Sources */,
+				E2440FA41A97EF28005EE4CC /* SFTOperationQueueObserver.m in Sources */,
+				E2440FB41A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */,
+				E2440FA11A97EF28005EE4CC /* SFTTokenRequestOperation.m in Sources */,
 				E2440F871A97EEDF005EE4CC /* OAuth2Tests.m in Sources */,
+				E2440F9B1A97EF28005EE4CC /* SFTTokenRefreshOperation.m in Sources */,
+				E2440FA91A97EFE3005EE4CC /* SFTOAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +459,7 @@
 		E2440F8B1A97EEDF005EE4CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -327,12 +469,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Debug;
 		};
 		E2440F8C1A97EEDF005EE4CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -342,6 +486,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Release;
 		};
@@ -375,6 +520,20 @@
 			};
 			name = Release;
 		};
+		E2440FC01A97F7AB005EE4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2440FC11A97F7AB005EE4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -400,6 +559,14 @@
 			buildConfigurations = (
 				E2440F8E1A97EEDF005EE4CC /* Debug */,
 				E2440F8F1A97EEDF005EE4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2440FBF1A97F7AB005EE4CC /* Build configuration list for PBXAggregateTarget "Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2440FC01A97F7AB005EE4CC /* Debug */,
+				E2440FC11A97F7AB005EE4CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

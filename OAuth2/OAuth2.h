@@ -17,3 +17,5 @@ FOUNDATION_EXPORT const unsigned char OAuth2VersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <OAuth2/PublicHeader.h>
 
 
+#import <OAuth2/SFTOAuth.h>
+#import <OAuth2/SFTUser.h>
