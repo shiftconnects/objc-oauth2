@@ -1,1314 +1,619 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>E2440F6A1A97EEDF005EE4CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2440F761A97EEDF005EE4CC</string>
-				<string>E2440F831A97EEDF005EE4CC</string>
-				<string>E2440F751A97EEDF005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F6B1A97EEDF005EE4CC</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0610</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>P100 OG, Inc.</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>E2440F731A97EEDF005EE4CC</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-					</dict>
-					<key>E2440F7E1A97EEDF005EE4CC</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-					</dict>
-					<key>E2440FBE1A97F7AB005EE4CC</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>E2440F6E1A97EEDF005EE4CC</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>E2440F6A1A97EEDF005EE4CC</string>
-			<key>productRefGroup</key>
-			<string>E2440F751A97EEDF005EE4CC</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>E2440F731A97EEDF005EE4CC</string>
-				<string>E2440F7E1A97EEDF005EE4CC</string>
-				<string>E2440FBE1A97F7AB005EE4CC</string>
-			</array>
-		</dict>
-		<key>E2440F6E1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E2440F881A97EEDF005EE4CC</string>
-				<string>E2440F891A97EEDF005EE4CC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E2440F6F1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E2440FAE1A97F175005EE4CC</string>
-				<string>E2440F9A1A97EF28005EE4CC</string>
-				<string>E2440FA81A97EFE3005EE4CC</string>
-				<string>E2440FB31A97F1AF005EE4CC</string>
-				<string>E2440FA31A97EF28005EE4CC</string>
-				<string>E2440FA01A97EF28005EE4CC</string>
-				<string>E2440FBB1A97F25B005EE4CC</string>
-				<string>E2440F9D1A97EF28005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E2440F701A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E2440F711A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E2440FA71A97EFE3005EE4CC</string>
-				<string>E2440F9F1A97EF28005EE4CC</string>
-				<string>E2440FAD1A97F175005EE4CC</string>
-				<string>E2440FB71A97F232005EE4CC</string>
-				<string>E2440FA21A97EF28005EE4CC</string>
-				<string>E2440F9C1A97EF28005EE4CC</string>
-				<string>E2440F991A97EF28005EE4CC</string>
-				<string>E2440FBA1A97F25B005EE4CC</string>
-				<string>E2440FB21A97F1AF005EE4CC</string>
-				<string>E2440F7A1A97EEDF005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E2440F721A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E2440F731A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E2440F8A1A97EEDF005EE4CC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E2440F6F1A97EEDF005EE4CC</string>
-				<string>E2440F701A97EEDF005EE4CC</string>
-				<string>E2440F711A97EEDF005EE4CC</string>
-				<string>E2440F721A97EEDF005EE4CC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>OAuth2</string>
-			<key>productName</key>
-			<string>OAuth2</string>
-			<key>productReference</key>
-			<string>E2440F741A97EEDF005EE4CC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>E2440F741A97EEDF005EE4CC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>OAuth2.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E2440F751A97EEDF005EE4CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2440F741A97EEDF005EE4CC</string>
-				<string>E2440F7F1A97EEDF005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F761A97EEDF005EE4CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2440FB51A97F1B3005EE4CC</string>
-				<string>E2440F901A97EF19005EE4CC</string>
-				<string>E2440F791A97EEDF005EE4CC</string>
-				<string>E2440F771A97EEDF005EE4CC</string>
-				<string>E2440FAA1A97EFE8005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>OAuth2</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F771A97EEDF005EE4CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2440F781A97EEDF005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>path</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F781A97EEDF005EE4CC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F791A97EEDF005EE4CC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OAuth2.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F7A1A97EEDF005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F791A97EEDF005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E2440F7B1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E2440F9E1A97EF28005EE4CC</string>
-				<string>E2440FAF1A97F175005EE4CC</string>
-				<string>E2440FA41A97EF28005EE4CC</string>
-				<string>E2440FB41A97F1AF005EE4CC</string>
-				<string>E2440FA11A97EF28005EE4CC</string>
-				<string>E2440F871A97EEDF005EE4CC</string>
-				<string>E2440F9B1A97EF28005EE4CC</string>
-				<string>E2440FA91A97EFE3005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E2440F7C1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E2440F801A97EEDF005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E2440F7D1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E2440F7E1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E2440F8D1A97EEDF005EE4CC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E2440F7B1A97EEDF005EE4CC</string>
-				<string>E2440F7C1A97EEDF005EE4CC</string>
-				<string>E2440F7D1A97EEDF005EE4CC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>E2440F821A97EEDF005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>OAuth2Tests</string>
-			<key>productName</key>
-			<string>OAuth2Tests</string>
-			<key>productReference</key>
-			<string>E2440F7F1A97EEDF005EE4CC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>E2440F7F1A97EEDF005EE4CC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>OAuth2Tests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E2440F801A97EEDF005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F741A97EEDF005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440F811A97EEDF005EE4CC</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>E2440F6B1A97EEDF005EE4CC</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>E2440F731A97EEDF005EE4CC</string>
-			<key>remoteInfo</key>
-			<string>OAuth2</string>
-		</dict>
-		<key>E2440F821A97EEDF005EE4CC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>E2440F731A97EEDF005EE4CC</string>
-			<key>targetProxy</key>
-			<string>E2440F811A97EEDF005EE4CC</string>
-		</dict>
-		<key>E2440F831A97EEDF005EE4CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2440F861A97EEDF005EE4CC</string>
-				<string>E2440F841A97EEDF005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>OAuth2Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F841A97EEDF005EE4CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2440F851A97EEDF005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>path</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F851A97EEDF005EE4CC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F861A97EEDF005EE4CC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OAuth2Tests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F871A97EEDF005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F861A97EEDF005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440F881A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E2440F891A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E2440F8A1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E2440F8B1A97EEDF005EE4CC</string>
-				<string>E2440F8C1A97EEDF005EE4CC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E2440F8B1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>INFOPLIST_FILE</key>
-				<string>OAuth2/Supporting Files/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALID_ARCHS</key>
-				<string>arm64 armv7 armv7s i386</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E2440F8C1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>INFOPLIST_FILE</key>
-				<string>OAuth2/Supporting Files/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALID_ARCHS</key>
-				<string>arm64 armv7 armv7s i386</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E2440F8D1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E2440F8E1A97EEDF005EE4CC</string>
-				<string>E2440F8F1A97EEDF005EE4CC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E2440F8E1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>OAuth2Tests/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E2440F8F1A97EEDF005EE4CC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>OAuth2Tests/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E2440F901A97EF19005EE4CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2440FB61A97F232005EE4CC</string>
-				<string>E2440F911A97EF28005EE4CC</string>
-				<string>E2440F921A97EF28005EE4CC</string>
-				<string>E2440F931A97EF28005EE4CC</string>
-				<string>E2440F941A97EF28005EE4CC</string>
-				<string>E2440F951A97EF28005EE4CC</string>
-				<string>E2440F961A97EF28005EE4CC</string>
-				<string>E2440F971A97EF28005EE4CC</string>
-				<string>E2440F981A97EF28005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Operations</string>
-			<key>path</key>
-			<string>Operations</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F911A97EF28005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SFTTokenRefreshOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F921A97EF28005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SFTTokenRefreshOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F931A97EF28005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SFTRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F941A97EF28005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SFTRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F951A97EF28005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SFTTokenRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F961A97EF28005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SFTTokenRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F971A97EF28005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SFTOperationQueueObserver.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F981A97EF28005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SFTOperationQueueObserver.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440F991A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F911A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440F9A1A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F921A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440F9B1A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F921A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440F9C1A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F931A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440F9D1A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F941A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440F9E1A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F941A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440F9F1A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F951A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FA01A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F961A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FA11A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F961A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FA21A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F971A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FA31A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F981A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FA41A97EF28005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440F981A97EF28005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FA51A97EFE3005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SFTOAuth.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440FA61A97EFE3005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SFTOAuth.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440FA71A97EFE3005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FA51A97EFE3005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E2440FA81A97EFE3005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FA61A97EFE3005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FA91A97EFE3005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FA61A97EFE3005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FAA1A97EFE8005EE4CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2440FAB1A97F175005EE4CC</string>
-				<string>E2440FAC1A97F175005EE4CC</string>
-				<string>E2440FA51A97EFE3005EE4CC</string>
-				<string>E2440FA61A97EFE3005EE4CC</string>
-				<string>E2440FB81A97F25B005EE4CC</string>
-				<string>E2440FB91A97F25B005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Auth</string>
-			<key>path</key>
-			<string>Auth</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440FAB1A97F175005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SFTUser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440FAC1A97F175005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SFTUser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440FAD1A97F175005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FAB1A97F175005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E2440FAE1A97F175005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FAC1A97F175005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FAF1A97F175005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FAC1A97F175005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FB01A97F1AF005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSDate+Comparison.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440FB11A97F1AF005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSDate+Comparison.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440FB21A97F1AF005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FB01A97F1AF005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FB31A97F1AF005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FB11A97F1AF005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FB41A97F1AF005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FB11A97F1AF005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FB51A97F1B3005EE4CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2440FB01A97F1AF005EE4CC</string>
-				<string>E2440FB11A97F1AF005EE4CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Categories</string>
-			<key>path</key>
-			<string>Categories</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440FB61A97F232005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Endpoints.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440FB71A97F232005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FB61A97F232005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FB81A97F25B005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SFTAuthErrors.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440FB91A97F25B005EE4CC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SFTAuthErrors.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2440FBA1A97F25B005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FB81A97F25B005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FBB1A97F25B005EE4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2440FB91A97F25B005EE4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2440FBE1A97F7AB005EE4CC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E2440FBF1A97F7AB005EE4CC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E2440FC21A97F7CC005EE4CC</string>
-			</array>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXAggregateTarget</string>
-			<key>name</key>
-			<string>Universal</string>
-			<key>productName</key>
-			<string>Universal</string>
-		</dict>
-		<key>E2440FBF1A97F7AB005EE4CC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E2440FC01A97F7AB005EE4CC</string>
-				<string>E2440FC11A97F7AB005EE4CC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E2440FC01A97F7AB005EE4CC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E2440FC11A97F7AB005EE4CC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E2440FC21A97F7CC005EE4CC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>lipo binaries</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>#!/bin/sh
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
 
-UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal
+/* Begin PBXAggregateTarget section */
+		E2440FBE1A97F7AB005EE4CC /* Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E2440FBF1A97F7AB005EE4CC /* Build configuration list for PBXAggregateTarget "Universal" */;
+			buildPhases = (
+				E2440FC21A97F7CC005EE4CC /* lipo binaries */,
+			);
+			dependencies = (
+			);
+			name = Universal;
+			productName = Universal;
+		};
+/* End PBXAggregateTarget section */
 
-# make sure the output directory exists
-mkdir -p "${UNIVERSAL_OUTPUTFOLDER}"
+/* Begin PBXBuildFile section */
+		E2440F7A1A97EEDF005EE4CC /* OAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440F791A97EEDF005EE4CC /* OAuth2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2440F801A97EEDF005EE4CC /* OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2440F741A97EEDF005EE4CC /* OAuth2.framework */; };
+		E2440F871A97EEDF005EE4CC /* OAuth2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F861A97EEDF005EE4CC /* OAuth2Tests.m */; };
+		E2440F991A97EF28005EE4CC /* SFTTokenRefreshOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440F911A97EF28005EE4CC /* SFTTokenRefreshOperation.h */; };
+		E2440F9A1A97EF28005EE4CC /* SFTTokenRefreshOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F921A97EF28005EE4CC /* SFTTokenRefreshOperation.m */; };
+		E2440F9B1A97EF28005EE4CC /* SFTTokenRefreshOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F921A97EF28005EE4CC /* SFTTokenRefreshOperation.m */; };
+		E2440F9C1A97EF28005EE4CC /* SFTRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440F931A97EF28005EE4CC /* SFTRequestOperation.h */; };
+		E2440F9D1A97EF28005EE4CC /* SFTRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F941A97EF28005EE4CC /* SFTRequestOperation.m */; };
+		E2440F9E1A97EF28005EE4CC /* SFTRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F941A97EF28005EE4CC /* SFTRequestOperation.m */; };
+		E2440F9F1A97EF28005EE4CC /* SFTTokenRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440F951A97EF28005EE4CC /* SFTTokenRequestOperation.h */; };
+		E2440FA01A97EF28005EE4CC /* SFTTokenRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F961A97EF28005EE4CC /* SFTTokenRequestOperation.m */; };
+		E2440FA11A97EF28005EE4CC /* SFTTokenRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F961A97EF28005EE4CC /* SFTTokenRequestOperation.m */; };
+		E2440FA21A97EF28005EE4CC /* SFTOperationQueueObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440F971A97EF28005EE4CC /* SFTOperationQueueObserver.h */; };
+		E2440FA31A97EF28005EE4CC /* SFTOperationQueueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F981A97EF28005EE4CC /* SFTOperationQueueObserver.m */; };
+		E2440FA41A97EF28005EE4CC /* SFTOperationQueueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440F981A97EF28005EE4CC /* SFTOperationQueueObserver.m */; };
+		E2440FA71A97EFE3005EE4CC /* SFTOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FA51A97EFE3005EE4CC /* SFTOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2440FA81A97EFE3005EE4CC /* SFTOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */; };
+		E2440FA91A97EFE3005EE4CC /* SFTOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */; };
+		E2440FAD1A97F175005EE4CC /* SFTUser.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FAB1A97F175005EE4CC /* SFTUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2440FAE1A97F175005EE4CC /* SFTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FAC1A97F175005EE4CC /* SFTUser.m */; };
+		E2440FAF1A97F175005EE4CC /* SFTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FAC1A97F175005EE4CC /* SFTUser.m */; };
+		E2440FB21A97F1AF005EE4CC /* NSDate+Comparison.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FB01A97F1AF005EE4CC /* NSDate+Comparison.h */; };
+		E2440FB31A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FB11A97F1AF005EE4CC /* NSDate+Comparison.m */; };
+		E2440FB41A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FB11A97F1AF005EE4CC /* NSDate+Comparison.m */; };
+		E2440FB71A97F232005EE4CC /* Endpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FB61A97F232005EE4CC /* Endpoints.h */; };
+		E2440FBA1A97F25B005EE4CC /* SFTAuthErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FB81A97F25B005EE4CC /* SFTAuthErrors.h */; };
+		E2440FBB1A97F25B005EE4CC /* SFTAuthErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FB91A97F25B005EE4CC /* SFTAuthErrors.m */; };
+		E2440FC91A9800AF005EE4CC /* SFTOAuthTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FC81A9800AF005EE4CC /* SFTOAuthTest.m */; };
+		E2440FCD1A9800E6005EE4CC /* SFTTestURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FCC1A9800E6005EE4CC /* SFTTestURLProtocol.m */; };
+		E2440FD11A980182005EE4CC /* XCTest+Wait.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FD01A980182005EE4CC /* XCTest+Wait.m */; };
+		E2440FD31A9802B1005EE4CC /* SFTUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FD21A9802B1005EE4CC /* SFTUserTests.m */; };
+		E2440FD51A9802FC005EE4CC /* SFTAuthErrorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FD41A9802FC005EE4CC /* SFTAuthErrorsTests.m */; };
+/* End PBXBuildFile section */
 
-# Step 1. Build Device and Simulator versions
-xcodebuild -target "${PROJECT_NAME}" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION}
--sdk iphoneos  BUILD_DIR="${BUILD_DIR}" BUILD_ROOT="${BUILD_ROOT}" clean build xcodebuild -target "${PROJECT_NAME}" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR="${BUILD_DIR}" BUILD_ROOT="${BUILD_ROOT}" clean build
+/* Begin PBXContainerItemProxy section */
+		E2440F811A97EEDF005EE4CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2440F6B1A97EEDF005EE4CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2440F731A97EEDF005EE4CC;
+			remoteInfo = OAuth2;
+		};
+/* End PBXContainerItemProxy section */
 
-# Step 2. Copy the framework structure (from iphoneos build) to the universal folder
-cp -R "${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework" "${UNIVERSAL_OUTPUTFOLDER}/"
+/* Begin PBXFileReference section */
+		E2440F741A97EEDF005EE4CC /* OAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2440F781A97EEDF005EE4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2440F791A97EEDF005EE4CC /* OAuth2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAuth2.h; sourceTree = "<group>"; };
+		E2440F7F1A97EEDF005EE4CC /* OAuth2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuth2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2440F851A97EEDF005EE4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2440F861A97EEDF005EE4CC /* OAuth2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAuth2Tests.m; sourceTree = "<group>"; };
+		E2440F911A97EF28005EE4CC /* SFTTokenRefreshOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTTokenRefreshOperation.h; sourceTree = "<group>"; };
+		E2440F921A97EF28005EE4CC /* SFTTokenRefreshOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTTokenRefreshOperation.m; sourceTree = "<group>"; };
+		E2440F931A97EF28005EE4CC /* SFTRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTRequestOperation.h; sourceTree = "<group>"; };
+		E2440F941A97EF28005EE4CC /* SFTRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTRequestOperation.m; sourceTree = "<group>"; };
+		E2440F951A97EF28005EE4CC /* SFTTokenRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTTokenRequestOperation.h; sourceTree = "<group>"; };
+		E2440F961A97EF28005EE4CC /* SFTTokenRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTTokenRequestOperation.m; sourceTree = "<group>"; };
+		E2440F971A97EF28005EE4CC /* SFTOperationQueueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTOperationQueueObserver.h; sourceTree = "<group>"; };
+		E2440F981A97EF28005EE4CC /* SFTOperationQueueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTOperationQueueObserver.m; sourceTree = "<group>"; };
+		E2440FA51A97EFE3005EE4CC /* SFTOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTOAuth.h; sourceTree = "<group>"; };
+		E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTOAuth.m; sourceTree = "<group>"; };
+		E2440FAB1A97F175005EE4CC /* SFTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTUser.h; sourceTree = "<group>"; };
+		E2440FAC1A97F175005EE4CC /* SFTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTUser.m; sourceTree = "<group>"; };
+		E2440FB01A97F1AF005EE4CC /* NSDate+Comparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Comparison.h"; sourceTree = "<group>"; };
+		E2440FB11A97F1AF005EE4CC /* NSDate+Comparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Comparison.m"; sourceTree = "<group>"; };
+		E2440FB61A97F232005EE4CC /* Endpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Endpoints.h; sourceTree = "<group>"; };
+		E2440FB81A97F25B005EE4CC /* SFTAuthErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTAuthErrors.h; sourceTree = "<group>"; };
+		E2440FB91A97F25B005EE4CC /* SFTAuthErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTAuthErrors.m; sourceTree = "<group>"; };
+		E2440FC81A9800AF005EE4CC /* SFTOAuthTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTOAuthTest.m; sourceTree = "<group>"; };
+		E2440FCB1A9800E6005EE4CC /* SFTTestURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTTestURLProtocol.h; sourceTree = "<group>"; };
+		E2440FCC1A9800E6005EE4CC /* SFTTestURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTTestURLProtocol.m; sourceTree = "<group>"; };
+		E2440FCF1A980182005EE4CC /* XCTest+Wait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTest+Wait.h"; sourceTree = "<group>"; };
+		E2440FD01A980182005EE4CC /* XCTest+Wait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTest+Wait.m"; sourceTree = "<group>"; };
+		E2440FD21A9802B1005EE4CC /* SFTUserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTUserTests.m; sourceTree = "<group>"; };
+		E2440FD41A9802FC005EE4CC /* SFTAuthErrorsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTAuthErrorsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
-# Step 3. Copy Swift modules (from iphonesimulator build) to the copied framework directory
-cp -R "${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/." "${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule"
+/* Begin PBXFrameworksBuildPhase section */
+		E2440F701A97EEDF005EE4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2440F7C1A97EEDF005EE4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2440F801A97EEDF005EE4CC /* OAuth2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
-# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory
-lipo -create -output "${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}" "${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}" "${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}"
+/* Begin PBXGroup section */
+		E2440F6A1A97EEDF005EE4CC = {
+			isa = PBXGroup;
+			children = (
+				E2440F761A97EEDF005EE4CC /* OAuth2 */,
+				E2440F831A97EEDF005EE4CC /* OAuth2Tests */,
+				E2440F751A97EEDF005EE4CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2440F751A97EEDF005EE4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2440F741A97EEDF005EE4CC /* OAuth2.framework */,
+				E2440F7F1A97EEDF005EE4CC /* OAuth2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2440F761A97EEDF005EE4CC /* OAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				E2440FB51A97F1B3005EE4CC /* Categories */,
+				E2440F901A97EF19005EE4CC /* Operations */,
+				E2440F791A97EEDF005EE4CC /* OAuth2.h */,
+				E2440F771A97EEDF005EE4CC /* Supporting Files */,
+				E2440FAA1A97EFE8005EE4CC /* Auth */,
+			);
+			path = OAuth2;
+			sourceTree = "<group>";
+		};
+		E2440F771A97EEDF005EE4CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2440F781A97EEDF005EE4CC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2440F831A97EEDF005EE4CC /* OAuth2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E2440FCE1A980170005EE4CC /* Categories */,
+				E2440FCA1A9800D9005EE4CC /* Helpers */,
+				E2440F861A97EEDF005EE4CC /* OAuth2Tests.m */,
+				E2440FC81A9800AF005EE4CC /* SFTOAuthTest.m */,
+				E2440FD21A9802B1005EE4CC /* SFTUserTests.m */,
+				E2440FD41A9802FC005EE4CC /* SFTAuthErrorsTests.m */,
+				E2440F841A97EEDF005EE4CC /* Supporting Files */,
+			);
+			path = OAuth2Tests;
+			sourceTree = "<group>";
+		};
+		E2440F841A97EEDF005EE4CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2440F851A97EEDF005EE4CC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2440F901A97EF19005EE4CC /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				E2440FB61A97F232005EE4CC /* Endpoints.h */,
+				E2440F911A97EF28005EE4CC /* SFTTokenRefreshOperation.h */,
+				E2440F921A97EF28005EE4CC /* SFTTokenRefreshOperation.m */,
+				E2440F931A97EF28005EE4CC /* SFTRequestOperation.h */,
+				E2440F941A97EF28005EE4CC /* SFTRequestOperation.m */,
+				E2440F951A97EF28005EE4CC /* SFTTokenRequestOperation.h */,
+				E2440F961A97EF28005EE4CC /* SFTTokenRequestOperation.m */,
+				E2440F971A97EF28005EE4CC /* SFTOperationQueueObserver.h */,
+				E2440F981A97EF28005EE4CC /* SFTOperationQueueObserver.m */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		E2440FAA1A97EFE8005EE4CC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E2440FAB1A97F175005EE4CC /* SFTUser.h */,
+				E2440FAC1A97F175005EE4CC /* SFTUser.m */,
+				E2440FA51A97EFE3005EE4CC /* SFTOAuth.h */,
+				E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */,
+				E2440FB81A97F25B005EE4CC /* SFTAuthErrors.h */,
+				E2440FB91A97F25B005EE4CC /* SFTAuthErrors.m */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E2440FB51A97F1B3005EE4CC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E2440FB01A97F1AF005EE4CC /* NSDate+Comparison.h */,
+				E2440FB11A97F1AF005EE4CC /* NSDate+Comparison.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E2440FCA1A9800D9005EE4CC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E2440FCB1A9800E6005EE4CC /* SFTTestURLProtocol.h */,
+				E2440FCC1A9800E6005EE4CC /* SFTTestURLProtocol.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E2440FCE1A980170005EE4CC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E2440FCF1A980182005EE4CC /* XCTest+Wait.h */,
+				E2440FD01A980182005EE4CC /* XCTest+Wait.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
 
-# Step 5. Convenience step to copy the framework to the project's directory
-cp -R "${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework" "${PROJECT_DIR}"
+/* Begin PBXHeadersBuildPhase section */
+		E2440F711A97EEDF005EE4CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2440FA71A97EFE3005EE4CC /* SFTOAuth.h in Headers */,
+				E2440F9F1A97EF28005EE4CC /* SFTTokenRequestOperation.h in Headers */,
+				E2440FAD1A97F175005EE4CC /* SFTUser.h in Headers */,
+				E2440FB71A97F232005EE4CC /* Endpoints.h in Headers */,
+				E2440FA21A97EF28005EE4CC /* SFTOperationQueueObserver.h in Headers */,
+				E2440F9C1A97EF28005EE4CC /* SFTRequestOperation.h in Headers */,
+				E2440F991A97EF28005EE4CC /* SFTTokenRefreshOperation.h in Headers */,
+				E2440FBA1A97F25B005EE4CC /* SFTAuthErrors.h in Headers */,
+				E2440FB21A97F1AF005EE4CC /* NSDate+Comparison.h in Headers */,
+				E2440F7A1A97EEDF005EE4CC /* OAuth2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
-# Step 6. Convenience step to open the project's directory in Finder
-open "${PROJECT_DIR}"</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>E2440F6B1A97EEDF005EE4CC</string>
-</dict>
-</plist>
+/* Begin PBXNativeTarget section */
+		E2440F731A97EEDF005EE4CC /* OAuth2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2440F8A1A97EEDF005EE4CC /* Build configuration list for PBXNativeTarget "OAuth2" */;
+			buildPhases = (
+				E2440F6F1A97EEDF005EE4CC /* Sources */,
+				E2440F701A97EEDF005EE4CC /* Frameworks */,
+				E2440F711A97EEDF005EE4CC /* Headers */,
+				E2440F721A97EEDF005EE4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OAuth2;
+			productName = OAuth2;
+			productReference = E2440F741A97EEDF005EE4CC /* OAuth2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2440F7E1A97EEDF005EE4CC /* OAuth2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2440F8D1A97EEDF005EE4CC /* Build configuration list for PBXNativeTarget "OAuth2Tests" */;
+			buildPhases = (
+				E2440F7B1A97EEDF005EE4CC /* Sources */,
+				E2440F7C1A97EEDF005EE4CC /* Frameworks */,
+				E2440F7D1A97EEDF005EE4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2440F821A97EEDF005EE4CC /* PBXTargetDependency */,
+			);
+			name = OAuth2Tests;
+			productName = OAuth2Tests;
+			productReference = E2440F7F1A97EEDF005EE4CC /* OAuth2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2440F6B1A97EEDF005EE4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "P100 OG, Inc.";
+				TargetAttributes = {
+					E2440F731A97EEDF005EE4CC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E2440F7E1A97EEDF005EE4CC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E2440FBE1A97F7AB005EE4CC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = E2440F6E1A97EEDF005EE4CC /* Build configuration list for PBXProject "OAuth2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2440F6A1A97EEDF005EE4CC;
+			productRefGroup = E2440F751A97EEDF005EE4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2440F731A97EEDF005EE4CC /* OAuth2 */,
+				E2440F7E1A97EEDF005EE4CC /* OAuth2Tests */,
+				E2440FBE1A97F7AB005EE4CC /* Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2440F721A97EEDF005EE4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2440F7D1A97EEDF005EE4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2440FC21A97F7CC005EE4CC /* lipo binaries */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "lipo binaries";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION}\n-sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build xcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules (from iphonesimulator build) to the copied framework directory\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2440F6F1A97EEDF005EE4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2440FAE1A97F175005EE4CC /* SFTUser.m in Sources */,
+				E2440F9A1A97EF28005EE4CC /* SFTTokenRefreshOperation.m in Sources */,
+				E2440FA81A97EFE3005EE4CC /* SFTOAuth.m in Sources */,
+				E2440FB31A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */,
+				E2440FA31A97EF28005EE4CC /* SFTOperationQueueObserver.m in Sources */,
+				E2440FA01A97EF28005EE4CC /* SFTTokenRequestOperation.m in Sources */,
+				E2440FBB1A97F25B005EE4CC /* SFTAuthErrors.m in Sources */,
+				E2440F9D1A97EF28005EE4CC /* SFTRequestOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2440F7B1A97EEDF005EE4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2440F9E1A97EF28005EE4CC /* SFTRequestOperation.m in Sources */,
+				E2440FAF1A97F175005EE4CC /* SFTUser.m in Sources */,
+				E2440FA41A97EF28005EE4CC /* SFTOperationQueueObserver.m in Sources */,
+				E2440FB41A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */,
+				E2440FD31A9802B1005EE4CC /* SFTUserTests.m in Sources */,
+				E2440FA11A97EF28005EE4CC /* SFTTokenRequestOperation.m in Sources */,
+				E2440F871A97EEDF005EE4CC /* OAuth2Tests.m in Sources */,
+				E2440F9B1A97EF28005EE4CC /* SFTTokenRefreshOperation.m in Sources */,
+				E2440FD51A9802FC005EE4CC /* SFTAuthErrorsTests.m in Sources */,
+				E2440FA91A97EFE3005EE4CC /* SFTOAuth.m in Sources */,
+				E2440FC91A9800AF005EE4CC /* SFTOAuthTest.m in Sources */,
+				E2440FCD1A9800E6005EE4CC /* SFTTestURLProtocol.m in Sources */,
+				E2440FD11A980182005EE4CC /* XCTest+Wait.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2440F821A97EEDF005EE4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2440F731A97EEDF005EE4CC /* OAuth2 */;
+			targetProxy = E2440F811A97EEDF005EE4CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E2440F881A97EEDF005EE4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2440F891A97EEDF005EE4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2440F8B1A97EEDF005EE4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "OAuth2/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		E2440F8C1A97EEDF005EE4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "OAuth2/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		E2440F8E1A97EEDF005EE4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OAuth2Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2440F8F1A97EEDF005EE4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OAuth2Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2440FC01A97F7AB005EE4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2440FC11A97F7AB005EE4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2440F6E1A97EEDF005EE4CC /* Build configuration list for PBXProject "OAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2440F881A97EEDF005EE4CC /* Debug */,
+				E2440F891A97EEDF005EE4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2440F8A1A97EEDF005EE4CC /* Build configuration list for PBXNativeTarget "OAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2440F8B1A97EEDF005EE4CC /* Debug */,
+				E2440F8C1A97EEDF005EE4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2440F8D1A97EEDF005EE4CC /* Build configuration list for PBXNativeTarget "OAuth2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2440F8E1A97EEDF005EE4CC /* Debug */,
+				E2440F8F1A97EEDF005EE4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2440FBF1A97F7AB005EE4CC /* Build configuration list for PBXAggregateTarget "Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2440FC01A97F7AB005EE4CC /* Debug */,
+				E2440FC11A97F7AB005EE4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2440F6B1A97EEDF005EE4CC /* Project object */;
+}
