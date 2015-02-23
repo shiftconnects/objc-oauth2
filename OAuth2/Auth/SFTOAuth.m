@@ -8,7 +8,7 @@
 
 #import "SFTOAuth.h"
 
-#import "SFTUser.h"
+#import "SFTToken.h"
 
 #import "SFTTokenRefreshOperation.h"
 #import "SFTTokenRequestOperation.h"
@@ -57,7 +57,7 @@ typedef void(^refreshReturn)(void(^requestReturn)());
 #pragma mark - Requests
 
 + (void)performRequest:(NSURLRequest *)request
-               forUser:(SFTUser *)user
+             withToken:(SFTToken *)token
               clientId:(NSString *)clientId
           clientSecret:(NSString *)clientSecret
   authenticationServer:(NSURL *)authServer
@@ -67,11 +67,11 @@ typedef void(^refreshReturn)(void(^requestReturn)());
     
     // This block refreshes the user token
     refreshReturn refreshBlock = ^void(requestReturn block) {
-        SFTTokenRefreshOperation *refreshOperation = [[SFTTokenRefreshOperation alloc] initWithUser:user
-                                                                                           clientId:clientId
-                                                                                       clientSecret:clientSecret
-                                                                               authenticationServer:authServer
-                                                                                    completionBlock:^(NSError *error)
+        SFTTokenRefreshOperation *refreshOperation = [[SFTTokenRefreshOperation alloc] initWithToken:token
+                                                                                            clientId:clientId
+                                                                                        clientSecret:clientSecret
+                                                                                authenticationServer:authServer
+                                                                                     completionBlock:^(NSError *error)
                                                       {
                                                           NSAssert(block, @"completionBlock must not be nil!");
                                                           
@@ -104,8 +104,8 @@ typedef void(^refreshReturn)(void(^requestReturn)());
         // Entering the second chamber of Wu-Tang retain cycles
         requestReturn __block recursiveRequestBlock = weakRequestBlock;
         
-        if (user.hasValidToken) {
-            NSURLRequest *signedRequest = [self signedRequest:request token:user.token];
+        if (token.isValid) {
+            NSURLRequest *signedRequest = [self signedRequest:request token:token.accessToken];
             SFTRequestOperation *requestOperation = [[SFTRequestOperation alloc] initWithRequest:signedRequest
                                                                                  completionBlock:^(NSData *data, NSError *error)
                                                      {
@@ -127,7 +127,7 @@ typedef void(^refreshReturn)(void(^requestReturn)());
     };
     
     // Start this Rube Goldberg machine
-    if (user) {
+    if (token) {
         requestBlock();
     } else {
         completionBlock(nil, [NSError errorWithDomain:authErrorDomain
@@ -171,9 +171,17 @@ typedef void(^refreshReturn)(void(^requestReturn)());
                                                                                          clientId:clientId
                                                                                      clientSecret:clientSecret
                                                                               authorizationServer:authServer
-                                                                                  completionBlock:^(NSString *token, NSString *refreshToken, NSDate *expiration, NSError *error)
+                                                                                  completionBlock:^(NSString *token,
+                                                                                                    NSString *refreshToken,
+                                                                                                    NSDate *expiration,
+                                                                                                    NSError *error)
                                                 {
-                                                    completionBlock(token, refreshToken, expiration, error);
+                                                    SFTToken *aToken = [[SFTToken alloc] initWithAccessToken:token
+                                                                                                refreshToken:refreshToken
+                                                                                                  expiration:expiration];
+                                                    if (completionBlock) {
+                                                        completionBlock(aToken, error);
+                                                    }
                                                 }];
     
     [_networkQueue addOperation:tokenOperation];

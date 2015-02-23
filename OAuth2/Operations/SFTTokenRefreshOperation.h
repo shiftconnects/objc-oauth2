@@ -8,16 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@class SFTUser;
+@class SFTToken;
 
 typedef void (^refreshReturnBlock)(NSError *error);
 
 @interface SFTTokenRefreshOperation : NSOperation
 
-- (instancetype)initWithUser:(SFTUser *)user
-                    clientId:(NSString *)clientId
-                clientSecret:(NSString *)clientSecret
-        authenticationServer:(NSURL *)url
-             completionBlock:(refreshReturnBlock)completionBlock;
+- (instancetype)initWithToken:(SFTToken *)token
+                     clientId:(NSString *)clientId
+                 clientSecret:(NSString *)clientSecret
+         authenticationServer:(NSURL *)url
+              completionBlock:(refreshReturnBlock)completionBlock;
 
 @end

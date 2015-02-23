@@ -8,12 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@class SFTUser;
+@class SFTToken;
 
 typedef void (^requestReturnBlock)(NSData *data, NSError *error);
-typedef void (^tokenRequestReturnBlock)(NSString *token,
-                                        NSString *refreshToken,
-                                        NSDate *expirationDate,
+typedef void (^tokenRequestReturnBlock)(SFTToken *token,
                                         NSError *error);
 
 @interface SFTOAuth : NSObject
@@ -30,13 +28,13 @@ typedef void (^tokenRequestReturnBlock)(NSString *token,
  If unsuccessful, it returns an NSError object.
  
  @param request NSURLRequest to be signed.
- @param user SFTUser object seeded with token information.
+ @param token SFTToken object seeded with token information.
  @param clientId Your app's client ID.
  @param clientSecret Your app's client secret.
  @param authServer Authentication server URL.
  */
 + (void)performRequest:(NSURLRequest *)request
-               forUser:(SFTUser *)user
+             withToken:(SFTToken *)token
               clientId:(NSString *)clientId
           clientSecret:(NSString *)clientSecret
   authenticationServer:(NSURL *)authServer
@@ -52,11 +50,11 @@ typedef void (^tokenRequestReturnBlock)(NSString *token,
 
 /** Exchanges user credentials for access token.
  
- Returns token, refresh token and token expiration.
+ Returns SFTToken.
  
  If unsuccessful it returns an NSError object.
  
- @param user SFTUser object seeded with username information.
+ @param user User's username.
  @param password User's password.
  @param clientId Your app's client ID.
  @param clientSecret Your app's client secret.

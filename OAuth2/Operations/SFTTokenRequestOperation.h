@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^tokenRequestReturnBlock)(NSString *token, NSString *refreshToken, NSDate *expiration, NSError *error);
+typedef void (^accessTokenRequestReturnBlock)(NSString *token, NSString *refreshToken, NSDate *expiration, NSError *error);
 
 @interface SFTTokenRequestOperation : NSOperation
 
@@ -17,6 +17,6 @@ typedef void (^tokenRequestReturnBlock)(NSString *token, NSString *refreshToken,
                         clientId:(NSString *)clientId
                     clientSecret:(NSString *)clientSecret
              authorizationServer:(NSURL *)url
-                 completionBlock:(tokenRequestReturnBlock)completionBlock;
+                 completionBlock:(accessTokenRequestReturnBlock)completionBlock;
 
 @end

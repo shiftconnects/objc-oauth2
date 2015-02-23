@@ -15,7 +15,7 @@
 
 #import "SFTOAuth.h"
 
-#import "SFTUser.h"
+#import "SFTToken.h"
 
 @interface SFTOAuth ()
 
@@ -53,13 +53,12 @@
     NSURL *testURL = [NSURL URLWithString:@"http://test.test"];
     NSURLRequest *testRequest = [NSURLRequest requestWithURL:testURL];
     
-    SFTUser *testUser = [[SFTUser alloc] initWithUserName:@"test"
-                                                    token:@"test"
-                                             refreshToken:@"test"
-                                          tokenExpiration:[NSDate distantFuture]];
+    SFTToken *testToken = [[SFTToken alloc] initWithAccessToken:@"test"
+                                                   refreshToken:@"test"
+                                                expiration:[NSDate distantFuture]];
     
     [SFTOAuth performRequest:testRequest
-                     forUser:testUser
+                   withToken:testToken
                     clientId:nil
                 clientSecret:nil
         authenticationServer:testURL
@@ -80,7 +79,7 @@
     NSURLRequest *testRequest = [NSURLRequest requestWithURL:testURL];
     
     [SFTOAuth performRequest:testRequest
-                     forUser:nil
+                   withToken:nil
                     clientId:nil
                 clientSecret:nil
         authenticationServer:testURL
@@ -94,19 +93,18 @@
 }
 
 - (void)testRequestSigning {
-    SFTUser *testUser = [[SFTUser alloc] initWithUserName:@"test"
-                                                    token:@"test"
-                                             refreshToken:@"test"
-                                          tokenExpiration:[NSDate distantFuture]];
+    SFTToken *testToken = [[SFTToken alloc] initWithAccessToken:@"test"
+                                                   refreshToken:@"test"
+                                                     expiration:[NSDate distantFuture]];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://test.test"]];
-    NSURLRequest *testRequest = [SFTOAuth signedRequest:request token:testUser.token];
+    NSURLRequest *testRequest = [SFTOAuth signedRequest:request token:testToken.accessToken];
     
     NSString *authHeader = testRequest.allHTTPHeaderFields[@"Authorization"];
     NSString *tokenString = [[authHeader componentsSeparatedByString:@" "] lastObject];
     
     XCTAssertNotNil(authHeader, @"should not be nil");
-    XCTAssert([tokenString isEqualToString:testUser.token], @"should be equal");
+    XCTAssert([tokenString isEqualToString:testToken.accessToken], @"should be equal");
 }
 
 - (void)testAccessTokenRequestSuccess {
@@ -125,16 +123,12 @@
                         clientId:@"test"
                     clientSecret:@"test"
             authenticationServer:testURL
-                                :^(NSString *token,
-                                   NSString *refreshToken,
-                                   NSDate *expirationDate,
-                                   NSError *error)
-     {
-         XCTAssertNotNil(token, @"should not be nil");
-         XCTAssertNotNil(refreshToken, @"should not be nil");
-         XCTAssertNotNil(expirationDate, @"should not be nil");
-         XCTAssertNil(error, @"should be nil");
-     }];
+                                :^(SFTToken *token, NSError *error) {
+                                    XCTAssertNotNil(token.accessToken, @"should not be nil");
+                                    XCTAssertNotNil(token.refreshToken, @"should not be nil");
+                                    XCTAssertNotNil(token.expiration, @"should not be nil");
+                                    XCTAssertNil(error, @"should be nil");
+                                }];
     
     [self waitForCompletion:0.1];
 }
@@ -150,15 +144,12 @@
                         clientId:@"test"
                     clientSecret:@"test"
             authenticationServer:testURL
-                                :^(NSString *token,
-                                   NSString *refreshToken,
-                                   NSDate *expirationDate,
-                                   NSError *error)
+                                :^(SFTToken *token, NSError *error)
      {
          XCTAssertNotNil(error, @"should not be nil");
-         XCTAssertNil(token, @"should be nil");
-         XCTAssertNil(refreshToken, @"should be nil");
-         XCTAssertNil(expirationDate, @"should be nil");
+         XCTAssertNil(token.accessToken, @"should be nil");
+         XCTAssertNil(token.refreshToken, @"should be nil");
+         XCTAssertNil(token.expiration, @"should be nil");
      }];
     
     [self waitForCompletion:0.1];

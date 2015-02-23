@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class SFTUser;
+@class SFTToken;
 
 typedef void (^requestReturnBlock)(NSData *data, NSError *error);
 

@@ -18,4 +18,4 @@ FOUNDATION_EXPORT const unsigned char OAuth2VersionString[];
 
 
 #import <OAuth2/SFTOAuth.h>
-#import <OAuth2/SFTUser.h>
+#import <OAuth2/SFTToken.h>

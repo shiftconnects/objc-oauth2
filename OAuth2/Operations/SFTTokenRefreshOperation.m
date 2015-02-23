@@ -8,13 +8,13 @@
 
 #import "SFTTokenRefreshOperation.h"
 
-#import "SFTUser.h"
+#import "SFTToken.h"
 
 #import "Endpoints.h"
 #import "SFTAuthErrors.h"
 
 @interface SFTTokenRefreshOperation () {
-    SFTUser *_user;
+    SFTToken *_token;
     NSString *_clientId;
     NSString *_clientSecret;
     NSURL *_url;
@@ -25,14 +25,14 @@
 
 @implementation SFTTokenRefreshOperation
 
-- (instancetype)initWithUser:(SFTUser *)user
-                    clientId:(NSString *)clientId
-                clientSecret:(NSString *)clientSecret
-        authenticationServer:(NSURL *)url
-             completionBlock:(refreshReturnBlock)completionBlock {
+- (instancetype)initWithToken:(SFTToken *)token
+                     clientId:(NSString *)clientId
+                 clientSecret:(NSString *)clientSecret
+         authenticationServer:(NSURL *)url
+              completionBlock:(refreshReturnBlock)completionBlock {
     self = [super init];
     if (self) {
-        _user = user;
+        _token = token;
         _clientId = clientId;
         _clientSecret = clientSecret;
         _url = url;
@@ -47,7 +47,7 @@
                                                                                                   tokenEndPoint]]];
     
     NSString *body = [NSString stringWithFormat:@"grant_type=refresh_token&refresh_token=%@&client_id=%@&client_secret=%@",
-                      _user.refreshToken,
+                      _token.refreshToken,
                       _clientId,
                       _clientSecret];
     
@@ -77,9 +77,9 @@
             
             NSTimeInterval expiration = [responseDictionary[@"expires_in"] doubleValue];
             NSDate *expirationDate = [NSDate dateWithTimeIntervalSinceNow:expiration];
-            [_user updateToken:responseDictionary[@"access_token"]
-                  refreshToken:responseDictionary[@"refresh_token"]
-               tokenExpiration:expirationDate];
+            [_token updateAccessToken:responseDictionary[@"access_token"]
+                         refreshToken:responseDictionary[@"refresh_token"]
+                           expiration:expirationDate];
         } else if (statusCode == 400) {
             internalError = [NSError errorWithDomain:authErrorDomain
                                                 code:400

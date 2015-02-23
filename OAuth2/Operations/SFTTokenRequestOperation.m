@@ -18,7 +18,7 @@
     NSString *_clientSecret;
     NSURL *_url;
     
-    tokenRequestReturnBlock _block;
+    accessTokenRequestReturnBlock _block;
 }
 
 @end
@@ -30,7 +30,7 @@
                         clientId:(NSString *)clientId
                     clientSecret:(NSString *)clientSecret
              authorizationServer:(NSURL *)url
-                 completionBlock:(tokenRequestReturnBlock)completionBlock{
+                 completionBlock:(accessTokenRequestReturnBlock)completionBlock{
     self = [super init];
     if (self) {
         _username = username;

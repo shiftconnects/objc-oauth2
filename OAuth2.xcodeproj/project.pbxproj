@@ -39,9 +39,9 @@
 		E2440FA71A97EFE3005EE4CC /* SFTOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FA51A97EFE3005EE4CC /* SFTOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2440FA81A97EFE3005EE4CC /* SFTOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */; };
 		E2440FA91A97EFE3005EE4CC /* SFTOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */; };
-		E2440FAD1A97F175005EE4CC /* SFTUser.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FAB1A97F175005EE4CC /* SFTUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2440FAE1A97F175005EE4CC /* SFTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FAC1A97F175005EE4CC /* SFTUser.m */; };
-		E2440FAF1A97F175005EE4CC /* SFTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FAC1A97F175005EE4CC /* SFTUser.m */; };
+		E2440FAD1A97F175005EE4CC /* SFTToken.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FAB1A97F175005EE4CC /* SFTToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2440FAE1A97F175005EE4CC /* SFTToken.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FAC1A97F175005EE4CC /* SFTToken.m */; };
+		E2440FAF1A97F175005EE4CC /* SFTToken.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FAC1A97F175005EE4CC /* SFTToken.m */; };
 		E2440FB21A97F1AF005EE4CC /* NSDate+Comparison.h in Headers */ = {isa = PBXBuildFile; fileRef = E2440FB01A97F1AF005EE4CC /* NSDate+Comparison.h */; };
 		E2440FB31A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FB11A97F1AF005EE4CC /* NSDate+Comparison.m */; };
 		E2440FB41A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FB11A97F1AF005EE4CC /* NSDate+Comparison.m */; };
@@ -51,7 +51,7 @@
 		E2440FC91A9800AF005EE4CC /* SFTOAuthTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FC81A9800AF005EE4CC /* SFTOAuthTest.m */; };
 		E2440FCD1A9800E6005EE4CC /* SFTTestURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FCC1A9800E6005EE4CC /* SFTTestURLProtocol.m */; };
 		E2440FD11A980182005EE4CC /* XCTest+Wait.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FD01A980182005EE4CC /* XCTest+Wait.m */; };
-		E2440FD31A9802B1005EE4CC /* SFTUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FD21A9802B1005EE4CC /* SFTUserTests.m */; };
+		E2440FD31A9802B1005EE4CC /* SFTTokenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FD21A9802B1005EE4CC /* SFTTokenTests.m */; };
 		E2440FD51A9802FC005EE4CC /* SFTAuthErrorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2440FD41A9802FC005EE4CC /* SFTAuthErrorsTests.m */; };
 /* End PBXBuildFile section */
 
@@ -82,8 +82,8 @@
 		E2440F981A97EF28005EE4CC /* SFTOperationQueueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTOperationQueueObserver.m; sourceTree = "<group>"; };
 		E2440FA51A97EFE3005EE4CC /* SFTOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTOAuth.h; sourceTree = "<group>"; };
 		E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTOAuth.m; sourceTree = "<group>"; };
-		E2440FAB1A97F175005EE4CC /* SFTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTUser.h; sourceTree = "<group>"; };
-		E2440FAC1A97F175005EE4CC /* SFTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTUser.m; sourceTree = "<group>"; };
+		E2440FAB1A97F175005EE4CC /* SFTToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTToken.h; sourceTree = "<group>"; };
+		E2440FAC1A97F175005EE4CC /* SFTToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTToken.m; sourceTree = "<group>"; };
 		E2440FB01A97F1AF005EE4CC /* NSDate+Comparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Comparison.h"; sourceTree = "<group>"; };
 		E2440FB11A97F1AF005EE4CC /* NSDate+Comparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Comparison.m"; sourceTree = "<group>"; };
 		E2440FB61A97F232005EE4CC /* Endpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Endpoints.h; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		E2440FCC1A9800E6005EE4CC /* SFTTestURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTTestURLProtocol.m; sourceTree = "<group>"; };
 		E2440FCF1A980182005EE4CC /* XCTest+Wait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTest+Wait.h"; sourceTree = "<group>"; };
 		E2440FD01A980182005EE4CC /* XCTest+Wait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTest+Wait.m"; sourceTree = "<group>"; };
-		E2440FD21A9802B1005EE4CC /* SFTUserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTUserTests.m; sourceTree = "<group>"; };
+		E2440FD21A9802B1005EE4CC /* SFTTokenTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTTokenTests.m; sourceTree = "<group>"; };
 		E2440FD41A9802FC005EE4CC /* SFTAuthErrorsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTAuthErrorsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,7 +162,7 @@
 				E2440FCA1A9800D9005EE4CC /* Helpers */,
 				E2440F861A97EEDF005EE4CC /* OAuth2Tests.m */,
 				E2440FC81A9800AF005EE4CC /* SFTOAuthTest.m */,
-				E2440FD21A9802B1005EE4CC /* SFTUserTests.m */,
+				E2440FD21A9802B1005EE4CC /* SFTTokenTests.m */,
 				E2440FD41A9802FC005EE4CC /* SFTAuthErrorsTests.m */,
 				E2440F841A97EEDF005EE4CC /* Supporting Files */,
 			);
@@ -196,8 +196,8 @@
 		E2440FAA1A97EFE8005EE4CC /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				E2440FAB1A97F175005EE4CC /* SFTUser.h */,
-				E2440FAC1A97F175005EE4CC /* SFTUser.m */,
+				E2440FAB1A97F175005EE4CC /* SFTToken.h */,
+				E2440FAC1A97F175005EE4CC /* SFTToken.m */,
 				E2440FA51A97EFE3005EE4CC /* SFTOAuth.h */,
 				E2440FA61A97EFE3005EE4CC /* SFTOAuth.m */,
 				E2440FB81A97F25B005EE4CC /* SFTAuthErrors.h */,
@@ -242,7 +242,7 @@
 			files = (
 				E2440FA71A97EFE3005EE4CC /* SFTOAuth.h in Headers */,
 				E2440F9F1A97EF28005EE4CC /* SFTTokenRequestOperation.h in Headers */,
-				E2440FAD1A97F175005EE4CC /* SFTUser.h in Headers */,
+				E2440FAD1A97F175005EE4CC /* SFTToken.h in Headers */,
 				E2440FB71A97F232005EE4CC /* Endpoints.h in Headers */,
 				E2440FA21A97EF28005EE4CC /* SFTOperationQueueObserver.h in Headers */,
 				E2440F9C1A97EF28005EE4CC /* SFTRequestOperation.h in Headers */,
@@ -370,7 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2440FAE1A97F175005EE4CC /* SFTUser.m in Sources */,
+				E2440FAE1A97F175005EE4CC /* SFTToken.m in Sources */,
 				E2440F9A1A97EF28005EE4CC /* SFTTokenRefreshOperation.m in Sources */,
 				E2440FA81A97EFE3005EE4CC /* SFTOAuth.m in Sources */,
 				E2440FB31A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */,
@@ -386,10 +386,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2440F9E1A97EF28005EE4CC /* SFTRequestOperation.m in Sources */,
-				E2440FAF1A97F175005EE4CC /* SFTUser.m in Sources */,
+				E2440FAF1A97F175005EE4CC /* SFTToken.m in Sources */,
 				E2440FA41A97EF28005EE4CC /* SFTOperationQueueObserver.m in Sources */,
 				E2440FB41A97F1AF005EE4CC /* NSDate+Comparison.m in Sources */,
-				E2440FD31A9802B1005EE4CC /* SFTUserTests.m in Sources */,
+				E2440FD31A9802B1005EE4CC /* SFTTokenTests.m in Sources */,
 				E2440FA11A97EF28005EE4CC /* SFTTokenRequestOperation.m in Sources */,
 				E2440F871A97EEDF005EE4CC /* OAuth2Tests.m in Sources */,
 				E2440F9B1A97EF28005EE4CC /* SFTTokenRefreshOperation.m in Sources */,
