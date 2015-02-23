@@ -11,7 +11,6 @@
 #import "SFTAuthErrors.h"
 
 @interface SFTRequestOperation () {
-//    NSURLRequest *_request;
     requestReturnBlock _block;
 }
 
