@@ -25,7 +25,7 @@ SFTToken *aToken;
 // aRequest is some request
 
 [SFTOAuth performRequest:aRequest
-			   withToken:token
+			   withToken:aToken
 			   	clientId:@"client_id"
 			clientSecret:@"client_secret"
 	authenticationServer:[NSURL URLWithString:@"http://auth.server.test"]
