@@ -40,3 +40,6 @@ SFTToken *aToken;
 
 ## Further reading
 - [https://tools.ietf.org/html/rfc6749](https://tools.ietf.org/html/rfc6749)
+
+## License
+OAuth2 is available under the Apache License, Version 2.0. See the LICENSE file for more info.
