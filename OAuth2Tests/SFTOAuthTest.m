@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 P100 OG, Inc. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
 
 #import "XCTest+Wait.h"

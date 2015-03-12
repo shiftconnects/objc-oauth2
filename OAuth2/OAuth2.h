@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 P100 OG, Inc. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for OAuth2.
 FOUNDATION_EXPORT double OAuth2VersionNumber;
